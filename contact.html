@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Appartement à Vitré</title>
+  <meta name="description" content="Téléphone, email et formulaire simple pour contacter le vendeur et organiser une visite de l'appartement à Vitré." />
+  <meta property="og:title" content="Contact | Appartement à Vitré" />
+  <meta property="og:description" content="Un moyen simple pour poser une question ou demander une visite." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/og-image.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/img/favicon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-page="contact">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Appartement Vitré</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu">Menu</button>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="infos-pratiques.html">Informations pratiques</a>
+        <a href="contact.html" class="active btn btn-sm btn-ghost">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero-light">
+      <div class="container page-hero-inner">
+        <span class="eyebrow">Contact</span>
+        <h1>Prendre contact simplement</h1>
+        <p class="lead">
+          Pour une question complémentaire ou une demande de visite, vous pouvez appeler, écrire ou transmettre un message via le formulaire ci-dessous.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container feature-grid feature-grid-contact">
+        <article class="card">
+          <span class="eyebrow">Coordonnées</span>
+          <h2>Échange direct</h2>
+          <div class="contact-block">
+            <p class="label">Téléphone</p>
+            <p><a data-phone-link href="tel:0613841568" class="contact-link">06 13 84 15 68</a></p>
+          </div>
+          <div class="contact-block">
+            <p class="label">Email</p>
+            <p><a data-email-link href="mailto:tombonnin@hotmail.fr" class="contact-link">tombonnin@hotmail.fr</a></p>
+          </div>
+          <p class="note">
+            Si je ne suis pas disponible pour répondre au téléphone, vous pouvez me laisser un message et je vous rappelerai rapidement.
+            Agences s'abstenir.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="eyebrow">Formulaire</span>
+          <h2>Laisser un message</h2>
+          <form id="contact-form" class="contact-form" action="https://formspree.io/f/myklegew" method="POST">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" required />
+              </div>
+              <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="telephone">Numéro de téléphone</label>
+              <input type="tel" id="telephone" name="telephone" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required placeholder="Bonjour, je souhaite obtenir davantage d’informations sur le bien ou convenir d’une visite."></textarea>
+            </div>
+            <input type="hidden" name="_subject" value="Nouveau message - Appartement Vitré" />
+            <input type="hidden" name="_language" value="fr" />
+            <button type="submit" class="btn">Envoyer le message</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Contact — Appartement à Vitré</p>
+      <div class="footer-links">
+        <a href="index.html">Accueil</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="infos-pratiques.html">Informations pratiques</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Retour en haut">↑</button>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

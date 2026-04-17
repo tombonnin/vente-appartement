@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galerie photo | Appartement à Vitré</title>
+  <meta name="description" content="Galerie photo complète de l'appartement situé au cœur historique de Vitré." />
+  <meta property="og:title" content="Galerie photo | Appartement à Vitré" />
+  <meta property="og:description" content="Découvrez l’appartement en images : lumière, volumes, détails de caractère et potentiel complémentaire." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/og-image.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/img/favicon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-page="gallery">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Appartement Vitré</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu">Menu</button>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="galerie.html" class="active">Galerie</a>
+        <a href="infos-pratiques.html">Informations pratiques</a>
+        <a href="contact.html" class="btn btn-sm btn-ghost">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero-light">
+      <div class="container page-hero-inner">
+        <span class="eyebrow">Galerie</span>
+        <h1>Photos du bien</h1>
+        <p class="lead">
+          Découvrez davantage de photos pour apprécier les volumes, la lumière naturelle, les détails de l’ancien et le potentiel du grenier.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="gallery-grid" class="gallery-layout"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Fermer">×</button>
+    <button class="lightbox-prev" id="lightbox-prev" aria-label="Image précédente">‹</button>
+    <img id="lightbox-image" src="" alt="" />
+    <button class="lightbox-next" id="lightbox-next" aria-label="Image suivante">›</button>
+    <p id="lightbox-caption" class="lightbox-caption"></p>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Galerie photo — Appartement à Vitré</p>
+      <div class="footer-links">
+        <a href="index.html">Accueil</a>
+        <a href="infos-pratiques.html">Informations pratiques</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Retour en haut">↑</button>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/gallery.js"></script>
+</body>
+</html>

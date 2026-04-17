@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Informations pratiques | Appartement à Vitré</title>
+  <meta name="description" content="Descriptif détaillé, surfaces, DPE, GES, travaux récents, localisation et fiche PDF de l'appartement à Vitré." />
+  <meta property="og:title" content="Informations pratiques | Appartement à Vitré" />
+  <meta property="og:description" content="Toutes les informations utiles sur le bien : surfaces, performance énergétique, travaux, localisation et fiche PDF." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/og-image.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/img/favicon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-page="infos">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Appartement Vitré</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu">Menu</button>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="infos-pratiques.html" class="active">Informations pratiques</a>
+        <a href="contact.html" class="btn btn-sm btn-ghost">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero-light">
+      <div class="container page-hero-inner">
+        <span class="eyebrow">Informations pratiques</span>
+        <h1>Description du bien</h1>
+        <p class="lead">
+          Découvrez davantage d'informations utiles pour se projeter : descriptif, surfaces détaillées appartement / grenier, performance énergétique, travaux réalisés, environnement immédiat et fiche PDF documents à télécharger.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-layout split-layout-wide split-layout-balanced">
+        <div>
+          <span class="eyebrow">Description</span>
+          <h2>Un appartement de caractère, confortable dès aujourd’hui</h2>
+          <p>
+            Niché dans le cœur historique de Vitré, sur l’une des places principales, cet appartement bénéficie d’une situation particulièrement pratique au quotidien. Gare, commerces, cafés, restaurants, marchés et château se rejoignent à pied en quelques minutes.
+          </p>
+          <p>
+            L’exposition plein sud apporte une belle luminosité tout au long de la journée. Parquet et poutres apparentes renforcent la personnalité du lieu, avec une atmosphère chaleureuse qui reste simple et facile à vivre.
+          </p>
+          <p>
+            Les rénovations menées ces dernières années permettent d’aborder l’achat avec davantage de sérénité. Le grenier aménageable ajoute enfin une perspective d’évolution intéressante pour un futur besoin d’espace complémentaire.
+          </p>
+        </div>
+        <aside class="summary-panel summary-panel-balanced stacked">
+          <div class="summary-row"><span>Prix</span><strong data-bind="price">210 000 €</strong></div>
+          <div class="summary-row"><span>Localisation</span><strong data-bind="location">Cœur historique de Vitré</strong></div>
+          <div class="summary-row"><span>Performance énergétique</span><strong><span data-bind="dpe">D</span> · <span data-bind="dpeValue">222 kWh/m²/an</span></strong></div>
+          <div class="summary-row"><span>Climat / GES</span><strong><span data-bind="ges">B</span> · <span data-bind="gesValue">8 kg CO₂/m²/an</span></strong></div>
+          <div class="summary-row"><span>Composition</span><strong>séjour / cuisine, chambre, salle d’eau, WC, dégagement, grenier au-dessus</strong></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="container">
+        <div class="section-heading compact">
+          <span class="eyebrow">Caractéristiques</span>
+          <h2>Fiche synthétique</h2>
+        </div>
+        <div class="table-card">
+          <table class="info-table">
+            <tbody>
+              <tr>
+                <th>Prix</th>
+                <td data-bind="price">210 000 €</td>
+              </tr>
+              <tr>
+                <th>Situation</th>
+                <td data-bind="location">Cœur historique de Vitré</td>
+              </tr>
+              <tr>
+                <th>Superficie de l’appartement</th>
+                <td><span data-bind="apartmentCarrez">54,27 m²</span> loi Carrez <span class="extra-surface">(+<span data-bind="apartmentNonCarrez">65,18 m²</span> hors loi Carrez)</span></td>
+              </tr>
+              <tr>
+                <th>Superficie du grenier</th>
+                <td><span data-bind="grenierCarrez">25,54 m²</span> loi Carrez <span class="extra-surface">(+<span data-bind="grenierNonCarrez">45,24 m²</span> hors loi Carrez)</span></td>
+              </tr>
+              <tr>
+                <th>Total du bien</th>
+                <td><span data-bind="totalCarrez">79,81 m²</span> loi Carrez <span class="extra-surface">(+<span data-bind="totalNonCarrez">110,42 m²</span> hors loi Carrez)</span></td>
+              </tr>
+              <tr>
+                <th>DPE</th>
+                <td><span data-bind="dpe">D</span> — <span data-bind="dpeValue">222 kWh/m²/an</span></td>
+              </tr>
+              <tr>
+                <th>GES</th>
+                <td><span data-bind="ges">B</span> — <span data-bind="gesValue">8 kg CO₂/m²/an</span></td>
+              </tr>
+              <tr>
+                <th>Accès gare</th>
+                <td>2 minutes à pied</td>
+              </tr>
+              <tr>
+                <th>Travaux récents</th>
+                <td>fin 2021 : cuisine, salle d’eau, tableau électrique ; novembre 2024 : chauffe-eau ; octobre 2025 : fenêtres</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container feature-grid feature-grid-2">
+        <article class="card">
+          <span class="eyebrow">Surfaces</span>
+          <h3>Superficie des lots</h3>
+          <p>
+            La superficie totale du bien est divisée entre l'appartement et la partie grenier, avec pour chacune la surface loi Carrez et la surface hors loi Carrez.
+          </p>
+          <ul class="detail-list">
+            <li><strong>Appartement :</strong> <span data-bind="apartmentCarrez">54,27 m²</span> loi Carrez <span class="extra-surface">(+<span data-bind="apartmentNonCarrez">10,91 m²</span> hors loi Carrez)</span></li>
+            <li><strong>Grenier :</strong> <span data-bind="grenierCarrez">25,54 m²</span> loi Carrez <span class="extra-surface">(+<span data-bind="grenierNonCarrez">19,07 m²</span> hors loi Carrez)</span></li>
+            <li><strong>Total :</strong> <span data-bind="totalCarrez">79,81 m²</span> loi Carrez <span class="extra-surface">(+<span data-bind="totalNonCarrez">29,98 m²</span> hors loi Carrez)</span></li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="eyebrow">Travaux et potentiel</span>
+          <h3>Des bases saines, avec une marge d’évolution</h3>
+          <p>
+            La distribution a été repensée et les principaux postes techniques ont été repris récemment.
+          </p>
+          <ul class="detail-list">
+            <li>Cuisine refaite fin 2021</li>
+            <li>Salle d’eau refaite fin 2021</li>
+            <li>Tableau électrique refait fin 2021</li>
+            <li>Chauffe-eau remplacé en novembre 2024</li>
+            <li>Fenêtres rénovées en octobre 2025</li>
+            <li>Grenier aménageable pour un usage futur complémentaire</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="container">
+        <div class="section-heading compact">
+          <span class="eyebrow">Performance énergétique</span>
+          <h2>Énergie et climat</h2>
+        </div>
+        <div class="energy-grid">
+          <article class="energy-card">
+            <div class="energy-score"><span data-bind="dpe">D</span></div>
+            <h3>DPE</h3>
+            <p><strong data-bind="dpeValue">222 kWh/m²/an</strong></p>
+            <p>
+              Une performance énergétique classée D, cohérente avec un appartement ancien rénové sur plusieurs postes importants.
+            </p>
+          </article>
+          <article class="energy-card">
+            <div class="energy-score"><span data-bind="ges">B</span></div>
+            <h3>GES</h3>
+            <p><strong data-bind="gesValue">8 kg CO₂/m²/an</strong></p>
+            <p>
+              L’indicateur climat est classé B, avec un niveau d’émissions contenu par rapport à la consommation énergétique du logement.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="container split-layout split-layout-wide split-layout-balanced">
+        <div>
+          <span class="eyebrow">Environnement</span>
+          <h2>Le confort du centre historique au quotidien</h2>
+          <p>
+            Le bien profite d’une localisation centrale et immédiatement pratique : commerces, services, cafés, restaurants, marchés du lundi et du samedi, ainsi que le château de Vitré, sont accessibles à pied.
+          </p>
+          <div class="inline-actions">
+            <a href="assets/docs/fiche-appartement-vitre.pdf" data-pdf-link class="btn" download>Télécharger la fiche PDF</a>
+            <a href="contact.html" class="text-link">Poser une question</a>
+          </div>
+        </div>
+        <div class="map-card secondary-map align-card">
+          <iframe
+            data-map-src
+            title="Carte de localisation de l'appartement à Vitré"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src=""
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Informations pratiques — Appartement à Vitré</p>
+      <div class="footer-links">
+        <a href="index.html">Accueil</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Retour en haut">↑</button>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
